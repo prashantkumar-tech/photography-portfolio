@@ -2,16 +2,6 @@ import { Photo } from "@/types"
 
 export const photos: Photo[] = [
   {
-    id: "1",
-    title: "Autumn Glow",
-    category: "outdoor",
-    src: "/images/portfolio/4K7A0829.jpg",
-    alt: "Woman in golden yellow top standing on a tree-lined street in autumn",
-    featured: true,
-    width: 800,
-    height: 533,
-  },
-  {
     id: "2",
     title: "Golden Season",
     category: "outdoor",
@@ -37,22 +27,12 @@ export const photos: Photo[] = [
     category: "outdoor",
     src: "/images/portfolio/4K7A9187.jpg",
     alt: "Young boy standing in a field with a stunning autumn hillside and farm in the background",
-    featured: false,
+    featured: true,
     width: 800,
     height: 533,
   },
   {
     id: "5",
-    title: "Positano",
-    category: "editorial",
-    src: "/images/portfolio/italy-206-3.jpg",
-    alt: "Family portrait in front of the colourful cliffside village of Positano, Italy",
-    featured: false,
-    width: 800,
-    height: 533,
-  },
-  {
-    id: "6",
     title: "Scottish Highlands",
     category: "outdoor",
     src: "/images/portfolio/uk-140.jpg",
@@ -62,7 +42,7 @@ export const photos: Photo[] = [
     height: 1200,
   },
   {
-    id: "7",
+    id: "6",
     title: "The Piper",
     category: "editorial",
     src: "/images/portfolio/uk-38.jpg",
@@ -70,5 +50,15 @@ export const photos: Photo[] = [
     featured: false,
     width: 800,
     height: 533,
+  },
+  {
+    id: "7",
+    title: "Garden Walk",
+    category: "outdoor",
+    src: "/images/portfolio/untitled-53.jpg",
+    alt: "Woman walking in a garden with blooming red flowers",
+    featured: false,
+    width: 800,
+    height: 1200,
   },
 ]
