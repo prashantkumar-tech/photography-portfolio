@@ -69,7 +69,7 @@
   - SEO metadata added per page
 
 ## Still To Do
-- [ ] Connect GitHub to Vercel for auto-deploy (Vercel Dashboard → Settings → Git)
+- [x] Connect GitHub to Vercel for auto-deploy (Vercel Dashboard → Settings → Git)
 - [ ] Update personal info in `src/data/site.ts` (email, phone, location, social links)
 - [ ] Add headshot to `public/images/about/portrait.jpg`
 - [ ] Wire up Resend for contact form emails (`src/app/api/contact/route.ts`)
