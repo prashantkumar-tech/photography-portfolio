@@ -63,11 +63,18 @@
   - Contact details + Instagram link sidebar
   - API route at `/api/contact` (ready for Resend integration)
 
-- [ ] **Polish & Deploy**
-  - Add real photos to `public/images/portfolio/` and update `src/data/portfolio.ts`
-  - Update personal info in `src/data/site.ts`
-  - SEO metadata per page
-  - Deploy to Vercel
+- [x] **Polish & Deploy**
+  - Real photos added, compressed to web size (~500KB–2MB each)
+  - Deployed to Vercel (manual deploy via CLI — GitHub auto-deploy not yet connected)
+  - SEO metadata added per page
+
+## Still To Do
+- [ ] Connect GitHub to Vercel for auto-deploy (Vercel Dashboard → Settings → Git)
+- [ ] Update personal info in `src/data/site.ts` (email, phone, location, social links)
+- [ ] Add headshot to `public/images/about/portrait.jpg`
+- [ ] Wire up Resend for contact form emails (`src/app/api/contact/route.ts`)
+- [ ] Add a custom domain (Vercel Dashboard → Settings → Domains)
+- [ ] Add blog page (`/blog`) when ready
 
 ---
 
